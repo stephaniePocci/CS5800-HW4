@@ -10,8 +10,8 @@ public interface MacronutrientFactory {
 
 // Concrete Factories
 class NoRestrictionFactory implements MacronutrientFactory {
-    private static final List<Carbs> CARBS_OPTIONS = List.of(new Bread(), new Lentils(), new Pistachio());
-    private static final List<Protein> PROTEIN_OPTIONS = List.of(new Cheese(), new Fish(), new Chicken(), new Beef(), new Tofu(), new Tuna());
+    private static final List<Carbs> CARBS_OPTIONS = List.of(new Bread(), new Lentils(), new Pistachio(), new Cheese());
+    private static final List<Protein> PROTEIN_OPTIONS = List.of(new Fish(), new Chicken(), new Beef(), new Tofu(), new Tuna());
     private static final List<Fats> FATS_OPTIONS = List.of(new Avocado(), new SourCream(), new Peanuts());
 
     private static final Random RANDOM = new Random();
@@ -79,8 +79,8 @@ class VeganFactory implements MacronutrientFactory {
 }
 
 class NutAllergyFactory implements MacronutrientFactory {
-    private static final List<Carbs> CARBS_OPTIONS = List.of(new Bread(), new Lentils());
-    private static final List<Protein> PROTEIN_OPTIONS = List.of(new Cheese(), new Fish(), new Chicken(), new Beef(), new Tofu(), new Tuna());
+    private static final List<Carbs> CARBS_OPTIONS = List.of(new Bread(), new Lentils(), new Cheese());
+    private static final List<Protein> PROTEIN_OPTIONS = List.of(new Fish(), new Chicken(), new Beef(), new Tofu(), new Tuna());
     private static final List<Fats> FATS_OPTIONS = List.of(new Avocado(), new SourCream());
 
     private static final Random RANDOM = new Random();
