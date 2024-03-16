@@ -1,18 +1,18 @@
 import java.util.List;
 import java.util.Random;
 
-// Abstract Factory
+// abstract factory
 public interface MacronutrientFactory {
     Carbs createCarbs();
     Protein createProtein();
     Fats createFats();
 }
 
-// Concrete Factories
+// concrete factories
 class NoRestrictionFactory implements MacronutrientFactory {
     private static final List<Carbs> CARBS_OPTIONS = List.of(new Bread(), new Lentils(), new Pistachio(), new Cheese());
-    private static final List<Protein> PROTEIN_OPTIONS = List.of(new Fish(), new Chicken(), new Beef(), new Tofu(), new Tuna());
-    private static final List<Fats> FATS_OPTIONS = List.of(new Avocado(), new SourCream(), new Peanuts());
+    private static final List<Protein> PROTEIN_OPTIONS = List.of(new Fish(), new Chicken(), new Beef(), new Tofu());
+    private static final List<Fats> FATS_OPTIONS = List.of(new Avocado(), new SourCream(), new Peanuts(), new Tuna());
 
     private static final Random RANDOM = new Random();
 
@@ -35,7 +35,7 @@ class NoRestrictionFactory implements MacronutrientFactory {
 class PaleoFactory implements MacronutrientFactory {
     private static final List<Carbs> CARBS_OPTIONS = List.of(new Pistachio());
     private static final List<Protein> PROTEIN_OPTIONS = List.of(new Fish(), new Chicken(), new Beef());
-    private static final List<Fats> FATS_OPTIONS = List.of(new Avocado());
+    private static final List<Fats> FATS_OPTIONS = List.of(new Avocado(), new Tuna());
 
     private static final Random RANDOM = new Random();
 
@@ -80,8 +80,8 @@ class VeganFactory implements MacronutrientFactory {
 
 class NutAllergyFactory implements MacronutrientFactory {
     private static final List<Carbs> CARBS_OPTIONS = List.of(new Bread(), new Lentils(), new Cheese());
-    private static final List<Protein> PROTEIN_OPTIONS = List.of(new Fish(), new Chicken(), new Beef(), new Tofu(), new Tuna());
-    private static final List<Fats> FATS_OPTIONS = List.of(new Avocado(), new SourCream());
+    private static final List<Protein> PROTEIN_OPTIONS = List.of(new Fish(), new Chicken(), new Beef(), new Tofu());
+    private static final List<Fats> FATS_OPTIONS = List.of(new Avocado(), new SourCream(), new Tuna());
 
     private static final Random RANDOM = new Random();
 

@@ -1,4 +1,4 @@
-// Singleton Abstract Factory
+// singleton
 public class MacronutrientAbstractFactory {
     private static MacronutrientAbstractFactory instance;
 
@@ -22,17 +22,11 @@ public class MacronutrientAbstractFactory {
     }
 
     public MacronutrientFactory getFactory(DietPlan dietPlan) {
-        switch (dietPlan) {
-            case NO_RESTRICTION:
-                return noRestrictionFactory;
-            case PALEO:
-                return paleoFactory;
-            case VEGAN:
-                return veganFactory;
-            case NUT_ALLERGY:
-                return nutAllergyFactory;
-            default:
-                throw new IllegalArgumentException("Invalid diet plan");
-        }
+        return switch (dietPlan) {
+            case NO_RESTRICTION -> noRestrictionFactory;
+            case PALEO -> paleoFactory;
+            case VEGAN -> veganFactory;
+            case NUT_ALLERGY -> nutAllergyFactory;
+        };
     }
 }

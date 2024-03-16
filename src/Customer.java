@@ -1,4 +1,3 @@
-// Customer class
 public class Customer {
     private final String name;
     private final DietPlan dietPlan;
@@ -10,10 +9,6 @@ public class Customer {
 
     public String getName() {
         return name;
-    }
-
-    public DietPlan getDietPlan() {
-        return dietPlan;
     }
 
     public Meal getMeal() {

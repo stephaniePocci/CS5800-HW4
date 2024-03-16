@@ -30,10 +30,3 @@ class Tofu implements Protein {
         return "Tofu";
     }
 }
-
-class Tuna implements Protein {
-    @Override
-    public String getName() {
-        return "Tuna";
-    }
-}

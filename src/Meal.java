@@ -1,4 +1,3 @@
-// Meal class
 public class Meal {
     private final Carbs carbs;
     private final Protein protein;
@@ -12,9 +11,9 @@ public class Meal {
 
     @Override
     public String toString() {
-        return "Meal: " +
-                "Carbs=" + carbs.getName() +
-                ", Protein=" + protein.getName() +
-                ", Fats=" + fats.getName();
+        return
+                "    Carb: " + carbs.getName() +
+                ", Protein: " + protein.getName() +
+                ", Fat: " + fats.getName();
     }
 }

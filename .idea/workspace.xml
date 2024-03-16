@@ -4,9 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31165139-87f6-4951-b535-a3a9369ebd07" name="Changes" comment="Finished part 1, need to fix cheese to be carb in part 2">
+    <list default="true" id="31165139-87f6-4951-b535-a3a9369ebd07" name="Changes" comment="Removed excess comments">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Fats.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Fats.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MacronutrientAbstractFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MacronutrientAbstractFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MacronutrientFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MacronutrientFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MacronutrientMealGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MacronutrientMealGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Meal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Meal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Protein.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Protein.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +28,20 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;stephaniePocci&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="e806c68a-dcec-4d12-bb8c-c71a17f2799a" />
+        <option name="url" value="https://github.com/stephaniePocci/CS5800-HW4.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
@@ -69,7 +89,9 @@
       <workItem from="1710460816979" duration="1020000" />
       <workItem from="1710461936744" duration="4720000" />
       <workItem from="1710473715030" duration="2394000" />
-      <workItem from="1710536920570" duration="634000" />
+      <workItem from="1710536920570" duration="968000" />
+      <workItem from="1710552404953" duration="1689000" />
+      <workItem from="1710558441247" duration="1490000" />
     </task>
     <task id="LOCAL-00001" summary="Finished part 1, need to fix cheese to be carb in part 2">
       <option name="closed" value="true" />
@@ -79,7 +101,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710537223729</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Changed cheese from protein to carb">
+      <option name="closed" value="true" />
+      <created>1710537744603</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1710537744603</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,6 +129,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Finished part 1, need to fix cheese to be carb in part 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished part 1, need to fix cheese to be carb in part 2" />
+    <MESSAGE value="Changed cheese from protein to carb" />
+    <MESSAGE value="Removed excess comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed excess comments" />
   </component>
 </project>

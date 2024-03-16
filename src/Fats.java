@@ -22,3 +22,8 @@ class Peanuts implements Fats {
         return "Peanuts";
     }
 }
+
+class Tuna implements Fats {
+    @Override
+    public String getName() { return "Tuna"; }
+}
